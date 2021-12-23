@@ -70,9 +70,10 @@ div.desc {
   border: none;
 } */
 
+/* The nav element defines a set of navigation links*/
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  /*background-color: #333;*/
 }
 
 .navbar a {
