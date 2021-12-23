@@ -104,6 +104,7 @@ div.desc {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  text-transform: uppercase; 
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -188,7 +189,7 @@ header {
 header a{
    color:#ffffff;
    text-decoration:none;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
    font-size: 16px;
 }
 
@@ -211,6 +212,7 @@ header nav{
   margin-top:10px;
 }
 
+/*Text in header once you hover over it*/
 header .highlight, header .current a{
   color:#D4F7D4;
   font-weight:bold;
