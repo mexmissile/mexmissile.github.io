@@ -57,6 +57,19 @@ div.desc {
 /* END OF GALLERY*/
 
 
+
+
+
+/* This is a drop down menu test start */
+/* Dropdown Button */
+/*.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 14px 16px;
+  border: none;
+} */
+
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -71,17 +84,6 @@ div.desc {
   text-decoration: none;
 }
 
-
-
-/* This is a drop down menu test start */
-/* Dropdown Button */
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 14px 16px;
-  border: none;
-}
 
 /*I changed this completely for the dropdown menu*/
 /* The container <div> - needed to position the dropdown content */
