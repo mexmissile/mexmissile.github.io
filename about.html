@@ -13,6 +13,10 @@
 <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+
+<!--makes the dropdown arrow work-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	</head>
 	<body>
 		<header>
@@ -21,12 +25,24 @@
 					<h1><span class="highlight">Pablo</span> Espindola Chavarria</h1>
 				</div>
 				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li class="current"><a href="about.html">About</a></li>
-						<!--<li><a href="hobbies.html">Hobbies</a></li>  <! Testing Hobbies Page-->
-						<li><a href="services.html">Services</a></li>
-					</ul>
+
+					<div class="navbar">
+						<li class= "current" ><a href="index.html">Home</a></li>
+						<a href="about.html">About</a>
+						<div class="dropdown">
+							<button class="dropbtn">More
+								<i class="fa fa-caret-down"></i>
+							</button>
+							<div class="dropdown-content">
+								<a href="hobbies.html">Hobbies</a>
+								<a href="engineeringwork.html">Engineering Work</a>
+								<a href="gallery.html">Gallery</a>
+
+							</div>
+						</div>
+					</div>
+
+
 				</nav>
 			</div>
 		</header>
