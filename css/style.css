@@ -181,10 +181,6 @@ ul{
   margin-bottom:10px;
 }
 
-.currentplace{
-  background-color:  #3e8e41;
-}
-
 
 
 
@@ -228,10 +224,6 @@ header nav{
 header .highlight, header .current a{
   color:#D4F7D4;
   font-weight:bold;
-}
-
-.currentdrop a{
-  background-color: #D4F7D4;
 }
 
 
