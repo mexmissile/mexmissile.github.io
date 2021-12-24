@@ -221,7 +221,7 @@ header .highlight, header .current a{
 }
 
 /*Links in dropdown menu change color when selected*/
-header .currentdrop a{
+header li .currentdrop a{
   background-color: #3e8e41;
 }
 
