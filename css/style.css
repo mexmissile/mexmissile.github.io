@@ -220,6 +220,11 @@ header .highlight, header .current a{
   font-weight:bold;
 }
 
+/*Links in dropdown menu change color when selected*/
+header .currentdrop a{
+  background-color: #3e8e41;
+}
+
 header a:hover{
   color:#cccccc;
   font-weight:bold;
