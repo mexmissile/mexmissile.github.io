@@ -69,6 +69,35 @@ div.desc {
 
 
 
+/*Side by side images*/
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*End of side by side images*/
+
+
+
+
+
+
+
+
+
+
 
 /* This is a drop down menu test start */
 /* Dropdown Button */
