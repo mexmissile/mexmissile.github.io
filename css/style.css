@@ -342,7 +342,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 /* Main-col */
 article#main-col{
   float:left;
-  width:100%; /*change this to 65% for the sidebar*/
+  width:65%; /*change this to 65% for the sidebar*/
 }
 
 
