@@ -347,7 +347,7 @@ article#main-col{
 
 
 /* Main-col 65% */
-article#main-col{
+article#main-col65{
   float:left;
   width:65%; /*change this to 65% for the sidebar*/
 }
