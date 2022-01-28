@@ -193,7 +193,7 @@ div.desc {
 
 
 .container{
-  width:100%;
+  width:80%;
   margin:auto;
   overflow:hidden;
 }
@@ -342,7 +342,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 /* Main-col */
 article#main-col{
   float:left;
-  width:65%;
+  width:100%;
 }
 
 /* Services */
