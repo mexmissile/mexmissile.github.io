@@ -134,14 +134,18 @@ div.desc {
 /*End of side by side images*/
 
 
+/* img_border {
+  border: 5px solid rgb(7, 7, 7)
+} */
 
-
-
-
-
-
-
-
+.frame {
+  width: 400px;
+  height: 250px;
+  border: 3px solid #000000;
+  background: #eee;
+  margin: auto;
+  
+}
 
 
 /* This is a drop down menu test start */
@@ -407,6 +411,12 @@ article#main-colAbt{
 }
 
 /* Main-col 65% */
+article#main-colAbt-Google{
+  float:left;
+  width:100%; /*change this to 65% for the sidebar*/
+}
+
+/* Main-col 65% */
 article#main-colAbt2{
 padding: 40px;
   width:100%; /*change this to 65% for the sidebar*/
@@ -466,7 +476,7 @@ footer{
     width:100%
     margin-bottom:5px;
   }
-}
+} /* Keep this bracket or slideshow dots dissapear */
 
 
 
